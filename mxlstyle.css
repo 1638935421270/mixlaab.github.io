@@ -1,4 +1,31 @@
-p{
+/*Just watching how to
+comment in a .css file */
+#intro .first em{
+   color: violet;
+   background-color:gray;
+}
+
+#bodystyle{
+  /*background-color:#EAD1AA;*/
+  background-color:#AABBAA;
+}
+
+h1.text1{
+  color:#1F6364;
+  background-color:#AABBAA;
+  text-align: center;
+}
+
+h2.text1{
   color:white;
-  background-color:gray;
+  background-color:#1F6364;
+  text-align: center;
+}
+
+span.black{
+  color:black;
+}
+
+span.red{
+  color:#FF5821;
 }
