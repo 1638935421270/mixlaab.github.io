@@ -5,6 +5,11 @@ comment in a .css file */
     src: url(Kawak/Kawak-LightItalic.otf);
 }
 
+@font-face {
+    font-family: 'Lite';
+    src: url(Kawak/Kawak-Bold.otf);
+}
+
 #intro .first em{
    color: violet;
    background-color:gray;
@@ -61,10 +66,7 @@ div{
   text-align: center;
 }
 
-p{
-	background-color: transparent;
-	font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
-}
+p { color: #ffc000; font-family: 'Lite', cursive; font-size: 25px; font-weight: normal; line-height: 78px; margin: 0 0 0px; text-align: center; text-shadow: 1px 1px 2px #000; }
 
 span.black{
   color:black;
