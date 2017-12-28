@@ -5,21 +5,58 @@ comment in a .css file */
    background-color:gray;
 }
 
-#bodystyle{
-  /*background-color:#EAD1AA;*/
+/*#bodystyle{
+  background-color:#EAD1AA;
   background-color:#AABBAA;
+}
+*/
+
+#particles-js{
+	height:100%;
+	/*background:#AAAAAA;*/
+	background-image: url('black.png');
+}
+
+body{
+	color: black;
+	margin:0;
+	font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
+	padding:0;
+	height: 100vh;
+	background-color: transparent;
+}
+
+.btext{
+color: black;
+position:absolute;
+text-align:center;
+top: 10%;
 }
 
 h1.text1{
   color:#1F6364;
-  background-color:#AABBAA;
+  font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
+  background-color: transparent;
   text-align: center;
 }
 
 h2.text1{
-  color:white;
-  background-color:#1F6364;
+  color:black;
+  font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
+  background-color: transparent;
   text-align: center;
+}
+
+div{
+  color:black;
+  font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
+  background-color: transparent;
+  text-align: center;
+}
+
+p{
+	background-color: transparent;
+	font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
 }
 
 span.black{

@@ -6,16 +6,22 @@
 <html lang="es">
 
 <head>
-	<title>Welcome to Mixlaab!</title>
+	<title>Bienvenido a Mixlaab!</title>
 	<script src="js/script.js"></script>
 	<link rel="stylesheet" href="mxlstyle.css">
 </head>
 <body id="bodystyle">
-	<!--<h1 class="text1"><strong><big>M<span class="black">I</span><span class="red">X</span><span class="black">LAAB</span></big></strong></h1>-->
-	<img src = "mxl_logo_ver2.png" width=220px alt = "mxllogo"/>
+<script src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS.load('particles-js','particles.json', function(){
+	console.log('particles json loaded...');
+});
+</script>
+<div id ="particles-js"><div class = "btext">
+<img src = "mxl_logo_ver2.png" width=220px alt = "mxllogo"/>
 	<hr />
 	<button onclick="revealMessage()"> Click me! </button>
-	<p id="hiddenMessage" style="display:none"> Mixlaab is a mexican project in development. This project wants to show the great things that happen when people work together. </p><hr />
+	<p id="hiddenMessage" style="display:none"> Mixlaab es un proyecto mexicano en desarrollo. Queremos demostrar que cosas grandiosas pasan cuando la gente trabaja en conjunto. </p><hr />
 	<h2 class="text1">Welcome!</h2>
 	<hr width = "100%" align = "left" />
 	<img src = "sagancarl.jpg" width=300px border="15px" alt = "sagancarl"/>
@@ -30,7 +36,7 @@
 			<td><a href="email.html">Send us an E-Mail</a></td>
 		</tr>
 		<tr>
-			<td><a href="universities.html">Projects</a></td>
+			<td><a href="alumni.html">Alumni</a></td>
 		</tr>
 	</table>
 
@@ -40,9 +46,12 @@
 	</div>
 	<p class="first"> This is not in the intro section.</p>
 	<p> The second paragraph is not in the intro section. </p><br />
-	<p>With the help of (line break): <br />
-		<a href="https://pages.github.com/" target="_blank">Github Pages</a>
-	</p>
+</div>
+</div>
+<script type = "text/javascript" src = "particles.js"></script>
+<script type = "text/javascript" src = "app.js"></script>
+	<!--<h1 class="text1"><strong><big>M<span class="black">I</span><span class="red">X</span><span class="black">LAAB</span></big></strong></h1>-->
+	
 </body>
 
 </html>
