@@ -22,7 +22,7 @@ body{
 	margin:0;
 	font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
 	padding:0;
-	height: 100vh;
+	height: 98vh;
 	background-color: transparent;
 }
 
@@ -30,7 +30,7 @@ body{
 color: black;
 position:absolute;
 text-align:center;
-top: 10%;
+top: 8%;
 }
 
 h1.text1{

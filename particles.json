@@ -1,7 +1,59 @@
 {
 	"particles":{
 		"number":{
-			"value": 100
+			"value": 150
+		},
+		"color":{
+			"value": "#fff"
+		},
+		"shape":{
+			"type":"circle",
+			"image":{
+				"src": "https://www.10bestnetwork.com/img/theory-cube-logo-small.png"
+			}
+		},
+		"opacity":{
+			"value": 0.5,
+			"random": true,
+			"anim":{
+				"enable": true,
+				"speed": 5
+			}
+		},
+		"size":{
+			"value": 4
+		},
+		"color": {
+  			"value": "#111" 
+		},
+
+		"line_linked": {
+  			"enable": true,
+  			"distance": 150,
+  			"color": "#000",
+  			"width": 1
+		},
+		"move":{
+			"enable": true,
+			"speed": 6
+		}
+	},
+	"interactivity":{
+		"events":{
+			"onhover":{
+				"enable": true,
+				"mode": "repulse"
+			},
+			"onclick":{
+				"enable": true,
+				"mode": "bubble"
+			}
+		},
+		"modes":{
+			"repulse":{
+				"distance":50,
+				"duration":0.4					
+			}
 		}
 	}
 }
