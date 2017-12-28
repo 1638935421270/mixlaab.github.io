@@ -7,67 +7,89 @@
 
 <head>
 	<title>Bienvenido a Mixlaab</title>
+	<style>
+	div.btext{width: 100%;}
+	</style>
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="js/script.js"></script>
-<script>
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    h = checkTime(h);
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
-    var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
-}
-</script>
-	<link rel="stylesheet" href="mxlstyle.css">
-<link rel="icon" href="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
-</head>
-<body id="bodystyle" onload="startTime()">
-<script src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-<script>
-particlesJS.load('particles-js','particles.json', function(){
-	console.log('particles json loaded...');
-});
-</script>
-<div id ="particles-js"><div class = "btext">
-<img src = "mxl_logo_ver2.png" width=220px alt = "mxllogo"/>
-	<!--<button onclick="revealMessage()"> Click me! </button>-->
-	<p id="hiddenMessage" style="display:none"> Mixlaab es un proyecto mexicano en desarrollo. Queremos demostrar que cosas grandiosas pasan cuando la gente trabaja en conjunto. </p><hr />
-	<h2 id ="txt" class="text1"></h2>
-	<hr width = "100%" align = "left" />
-	<img align = "left" src = "sagancarl.jpg" width=300px border="15px" alt = "sagancarl"/>
-	<table align ="left" border="3px">
-		<tr>
-			<td><a href="mxlteam.html">Equipo Mixlaab</a></td>
-		</tr>
-		<tr>
-			<td><a href="about.html" target = "_blank">Acerca de Mixlaab</a></td>
-		</tr>
-		<tr>
-			<td><a href="email.html">Cont&aacute;ctanos</a></td>
-		</tr>
-		<tr>
-			<td><a href="universidades.html">Escuelas</a></td>
-		</tr>
-	</table>
+	<script>
+		function startTime() {
+			var today = new Date();
+	  	var h = today.getHours();
+	  	var m = today.getMinutes();
+	  	var s = today.getSeconds();
+	  	h = checkTime(h);
+	  	m = checkTime(m);
+	  	s = checkTime(s);
+	  	document.getElementById('txt').innerHTML =
+	  	h + ":" + m + ":" + s;
+	  	var t = setTimeout(startTime, 500);
+		}
+		function checkTime(i) {
+	  	if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			return i;
+		}
+	</script>
 
-	<!--<div id="intro">
-		<p class="first">"Se curioso, lee mucho, intenta nuevas cosas. Lo que la gente llama inteligencia no es mas que simple curiosidad". Aaron Swartz</p>
-	</div>-->
-</hr>
-</div>
-</div>
-<script type = "text/javascript" src = "particles.js"></script>
-<script type = "text/javascript" src = "app.js"></script>
+	<link rel="stylesheet" href="mxlstyle.css">
+	<link rel="icon" href="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
+</head>
+
+<body id="bodystyle" onload="startTime()">
+	<script src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script>
+		particlesJS.load('particles-js','particles.json', function(){
+			console.log('particles json loaded...');
+		});
+	</script>
+	<div id ="particles-js"><div class = "btext">
+		<img src = "mxl_logo_ver2.png" align="center" width=220px alt = "mxllogo"/>
+		<!--<button onclick="revealMessage()"> Click me! </button>
+		<p id="hiddenMessage" style="display:none"> Mixlaab es un proyecto mexicano en desarrollo. Queremos demostrar que cosas grandiosas pasan cuando la gente trabaja en conjunto. </p><hr />-->
+		<br/>
+		<br/>
+		<h2 id ="txt" class="text1"></h2>
+		<!-- <hr width = "100%" align = "center" /> -->
+		<div id='cssmenu'>
+			<ul>
+				<li class='active'><a href="index.html"><span>Inicio</span></a></li>
+				<li><a href="mxlteam.html"><span>Equipo Mixlaab</span></a></li>
+				<li><a href="about.html"><span>Acerca de Mixlaab</span></a></li>
+   			<li><a href="universidades.html"><span>Escuelas</span></a></li>
+   			<li class='last'><a href="email.html"><span>Contacto</span></a></li>
+			</ul>
+		</div>
+		<br/>
+		<img align = "center" src = "sagancarl.jpg" width=300px border="15px" alt = "sagancarl"/>
+
+		<!-- <table align ="center" border="3px">
+			<tr>
+				<td><a href="mxlteam.html">Equipo Mixlaab</a></td>
+			</tr>
+			<tr>
+				<td><a href="about.html" target = "_blank">Acerca de Mixlaab</a></td>
+			</tr>
+			<tr>
+				<td><a href="email.html">Cont&aacute;ctanos</a></td>
+			</tr>
+			<tr>
+				<td><a href="universidades.html">Escuelas</a></td>
+			</tr>
+		</table> -->
+
+		<!--<div id="intro">
+			<p class="first">"Se curioso, lee mucho, intenta nuevas cosas. Lo que la gente llama inteligencia no es mas que simple curiosidad". Aaron Swartz</p>
+		</div>-->
+		</hr>
+	</div>
+	</div>
+	<script type = "text/javascript" src = "particles.js"></script>
+	<script type = "text/javascript" src = "app.js"></script>
 	<!--<h1 class="text1"><strong><big>M<span class="black">I</span><span class="red">X</span><span class="black">LAAB</span></big></strong></h1>-->
-	
+
 </body>
 
 </html>

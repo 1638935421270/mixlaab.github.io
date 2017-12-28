@@ -1,4 +1,4 @@
-{
+/*{
 	"particles":{
 		"number":{
 			"value": 150
@@ -24,14 +24,14 @@
 			"value": 4
 		},
 		"color": {
-  			"value": "#ffc000" 
+  			"value": "#fff"
 		},
 
 		"line_linked": {
   			"enable": true,
   			"distance": 150,
-  			"color": "#7fff00",
-  			"width": 1
+  			"color": "#ffffff",
+  			"width": 2
 		},
 		"move":{
 			"enable": true,
@@ -52,8 +52,12 @@
 		"modes":{
 			"repulse":{
 				"distance":50,
-				"duration":0.4					
+				"duration":0.4
+			},
+			"bubble":{
+				"distance":100,
+				"size":10
 			}
 		}
 	}
-}
+}*/
