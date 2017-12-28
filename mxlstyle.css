@@ -1,5 +1,10 @@
 /*Just watching how to
 comment in a .css file */
+@font-face {
+    font-family: 'Kawak';
+    src: url(Kawak/Kawak-LightItalic.otf);
+}
+
 #intro .first em{
    color: violet;
    background-color:gray;
@@ -40,12 +45,14 @@ h1.text1{
   text-align: center;
 }
 
-h2.text1{
+h2.text1 { color: #7fff00; font-family: 'Kawak', cursive; font-size: 70px; font-weight: normal; line-height: 78px; margin: 0 0 0px; text-align: center; text-shadow: 1px 1px 2px #000; }
+
+/*h2.text1{
   color:black;
   font-family:-apple-system, BlincMacSystemFont, 'Segoe UI';
   background-color: transparent;
   text-align: center;
-}
+}*/
 
 div{
   color:black;

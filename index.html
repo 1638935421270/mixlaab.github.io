@@ -6,12 +6,30 @@
 <html lang="es">
 
 <head>
-	<title>Bienvenido a Mixlaab!</title>
+	<title>Bienvenido a Mixlaab</title>
 	<script src="js/script.js"></script>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    h = checkTime(h);
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
 	<link rel="stylesheet" href="mxlstyle.css">
 <link rel="icon" href="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
 </head>
-<body id="bodystyle">
+<body id="bodystyle" onload="startTime()">
 <script src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script>
 particlesJS.load('particles-js','particles.json', function(){
@@ -20,21 +38,20 @@ particlesJS.load('particles-js','particles.json', function(){
 </script>
 <div id ="particles-js"><div class = "btext">
 <img src = "mxl_logo_ver2.png" width=220px alt = "mxllogo"/>
-	<hr />
-	<button onclick="revealMessage()"> Click me! </button>
+	<!--<button onclick="revealMessage()"> Click me! </button>-->
 	<p id="hiddenMessage" style="display:none"> Mixlaab es un proyecto mexicano en desarrollo. Queremos demostrar que cosas grandiosas pasan cuando la gente trabaja en conjunto. </p><hr />
-	<h2 class="text1">Welcome!</h2>
+	<h2 id ="txt" class="text1"></h2>
 	<hr width = "100%" align = "left" />
-	<img src = "sagancarl.jpg" width=300px border="15px" alt = "sagancarl"/>
+	<img align = "center" src = "sagancarl.jpg" width=300px border="15px" alt = "sagancarl"/>
 	<table align ="left" border="3px">
 		<tr>
-			<td><a href="mxlteam.html">Mixlaab Team</a></td>
+			<td><a href="mxlteam.html">Equipo Mixlaab</a></td>
 		</tr>
 		<tr>
-			<td><a href="about.html" target = "_blank">About Mixlaab</a></td>
+			<td><a href="about.html" target = "_blank">Acerca de Mixlaab</a></td>
 		</tr>
 		<tr>
-			<td><a href="email.html">Send us an E-Mail</a></td>
+			<td><a href="email.html">Cont&aacute;ctanos</a></td>
 		</tr>
 		<tr>
 			<td><a href="alumni.html">Alumni</a></td>
