@@ -27,6 +27,12 @@ comment in a .css file */
 	background-image: url('black.png');
 }
 
+#particles-js2{
+	height:80%;
+	/*background:#AAAAAA;*/
+	background-image: url('white3.jpg');
+}
+
 body{
 	color: black;
 	margin:0;
@@ -94,6 +100,12 @@ span.black{
 
 span.red{
   color:#FF5821;
+}
+
+/* Imagen grande en mouseover */
+.thumbnail:hover {
+    width:180px;
+    height:auto;
 }
 
 /* Base Styles for CSS Menu */
