@@ -33,6 +33,13 @@ comment in a .css file */
 	background-image: url('white3.jpg');
 }
 
+#particles-js3{
+	height:80%;
+	/*background:#AAAAAA;*/
+  background-repeat: repeat-y;
+	background-image: url('purple.png');
+}
+
 body{
 	color: black;
 	margin:0;
@@ -40,6 +47,7 @@ body{
 	padding:0;
 	height: 98vh;
 	background-color: transparent;
+  background-repeat: repeat-y;
 }
 
 .btext{
