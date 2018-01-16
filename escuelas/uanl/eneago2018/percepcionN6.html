@@ -1,0 +1,1147 @@
+<!DOCTYPE html> <!--Common DOCTYPE Declaration for HTML 5-->
+<!--<strong> is umsed around things you want to show up bold visually, but also semantically ie.
+ in search engines like Google or Bing when they parse your page, will see it as relevant and
+ important to what you're displaying... Like a list of facts about your product, or a large discount, etc.
+<b> is used for visual effect on certain words or text that aren't as important.-->
+<html lang="es">
+
+<head>
+	<title>Bienvenido a Mixlaab</title>
+	<style>
+	div.btext{width: 100%;}
+	</style>
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/script.js"></script>
+	<script>
+		function startTime() {
+			var today = new Date();
+	  	var h = today.getHours();
+	  	var m = today.getMinutes();
+	  	var s = today.getSeconds();
+	  	h = checkTime(h);
+	  	m = checkTime(m);
+	  	s = checkTime(s);
+	  	document.getElementById('txt').innerHTML =
+	  	h + ":" + m + ":" + s;
+	  	var t = setTimeout(startTime, 500);
+		}
+		function checkTime(i) {
+	  	if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+			return i;
+		}
+	</script>
+
+  <link rel="stylesheet" href="../../../mxlstyle.css">
+  <link rel="stylesheet" href="../../../css/style.css">
+	<link rel="icon" href="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
+</head>
+
+<body id="bodystyle" onload="startTime()">
+	<script src = "https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script>
+		particlesJS.load('particles-js','particles.json', function(){
+			console.log('particles json loaded...');
+		});
+	</script>
+	<div id ="particles-js2"><div class = "btext">
+		<!-- <img src = "mxl_logo_ver2.png" align="center" width=220px alt = "mxllogo"/> -->
+		<!--<button onclick="revealMessage()"> Click me! </button>
+		<p id="hiddenMessage" style="display:none"> Mixlaab es un proyecto mexicano en desarrollo. Queremos demostrar que cosas grandiosas pasan cuando la gente trabaja en conjunto. </p><hr />-->
+		<!-- <br/>
+		<br/> -->
+		<img src = "../../../mxl_logo_ver2.png" align="left" width=150px hspace="10" alt = "mxllogo"/>
+		<!-- <hr width = "100%" align = "center" /> -->
+		<div id='cssmenu'>
+			<ul>
+				<li><a href="../../../index.html"><span>Inicio</span></a></li>
+				<li><a href="../../../equipo.html"><span>Equipo Mixlaab</span></a></li>
+				<li><a href="../../../about.html"><span>Acerca de Mixlaab</span></a></li>
+   			<li class='active'><a href="../../../escuelas.html"><span>Escuelas</span></a></li>
+   			<li class='last'><a href="../../../email.html"><span>Contacto</span></a></li>
+				<h2 id ="txt" class="text2" align = "left"></h2>
+			</ul>
+		</div>
+		<br/>
+		</hr>
+
+    <div class="wrapper">
+
+
+
+  <main>
+
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Medio Curso</label>
+
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Ordinario</label>
+
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">Descargas</label>
+
+	<section id="content1">
+		<div class="table">
+
+			<div class="row header">
+				<div class="cell">
+					Matrícula
+				</div>
+				<div class="cell">
+					Tarea 1
+				</div>
+				<div class="cell">
+					Tarea 2
+				</div>
+				<div class="cell">
+					Tarea 3
+				</div>
+				<div class="cell">
+					Tarea 4
+				</div>
+				<div class="cell">
+					Proyecto
+				</div>
+				<div class="cell">
+					Examen
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					001
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					002
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					003
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					004
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					005
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					006
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					007
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					008
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					009
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					010
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					011
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					012
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					013
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					014
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					015
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					016
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					017
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					018
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					019
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					020
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="content2">
+		<div class="table">
+
+			<div class="row header blue">
+				<div class="cell">
+					Matrícula
+				</div>
+				<div class="cell">
+					Tarea 1
+				</div>
+				<div class="cell">
+					Tarea 2
+				</div>
+				<div class="cell">
+					Tarea 3
+				</div>
+				<div class="cell">
+					Tarea 4
+				</div>
+				<div class="cell">
+					Proyecto
+				</div>
+				<div class="cell">
+					Examen
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					001
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					002
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					003
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					004
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					005
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					006
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					007
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					008
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					009
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					010
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					011
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					012
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					013
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					014
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					015
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					016
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					017
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					018
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					019
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="cell" data-title="Matrícula">
+					020
+				</div>
+				<div class="cell" data-title="Tarea 1">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 2">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 3">
+					-
+				</div>
+				<div class="cell" data-title="Tarea 4">
+					-
+				</div>
+				<div class="cell" data-title="Proyecto">
+					-
+				</div>
+				<div class="cell" data-title="Examen">
+					-
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="content3">
+
+		<p>
+			Presentaciones de clase
+		</p>
+
+		<h2 id ="txt" class="text3">
+			<a href="algcom/Sesion1.pptx" target="_blank">Presentación de Sesión 1</a>
+		</h2>
+
+		<br/>
+		<br/>
+		<br/>
+		<p>
+			Libros
+		</p>
+		<!-- <h2 id ="txt" class="text3">
+			<a href="algcom/Sesion1.pptx" target="_blank">Learning Processing</a>
+		</h2> -->
+		<br/>
+		<br/>
+		<br/>
+		<p>
+			Sitios Web
+		</p>
+		<!-- <h2 id ="txt" class="text3">
+			<a href="algcom/Sesion1.pptx" target="_blank">Learning Processing</a>
+		</h2> -->
+	</section>
+
+
+
+</main>
+
+</div>
+	</div>
+	</div>
+	<script type = "text/javascript" src = "particles.js"></script>
+	<script type = "text/javascript" src = "app.js"></script>
+
+</body>
+
+</html>
