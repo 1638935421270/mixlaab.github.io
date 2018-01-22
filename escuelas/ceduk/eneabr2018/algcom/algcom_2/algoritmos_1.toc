@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Definiciones}{3}{0}{1}
+\beamer@sectionintoc {2}{Edición y compilación}{7}{0}{2}
+\beamer@sectionintoc {3}{Aplicaciones}{11}{0}{3}
+\beamer@sectionintoc {4}{Historia}{14}{0}{4}
+\beamer@sectionintoc {5}{Resolviendo problemas}{25}{0}{5}
