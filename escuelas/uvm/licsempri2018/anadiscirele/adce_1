@@ -1,0 +1,91 @@
+Introducción:
+Hoy vivimos en un mundo predominantemente eléctrico. Las dos áreas primarias de la electrotecnología que permean esencialmente todos los aspectos de nuestras vidas son la potencia y la información.
+
+Introducción:
+La electrotecnología es una fuerza impulsora de los cambios que están ocurriendo en cada disciplina de la ingeniería.
+
+Introducción:
+Fundamental a la electrotecnología es el área del análisis de circuitos.
+
+Sistemas de unidades:
+Las unidades básicas son: metro, kilogramo, segundo, ampere, grado Kelvin y candela.
+
+Sistemas de unidades:
+Los prefijos SI estándar son: pico, nano, micro, mili, kilo, mega, giga, tera [Agregar imagen].
+
+Cantidades básicas:
+
+/*Circuito eléctrico.- Interconexión de componentes eléctricos*/
+
+Estrategia básica para el análisis de circuitos [Imagen p. 3]
+
+Cantidades básicas:
+La cantidad más elemental en un análisis de circuitos eléctricos es la carga eléctrica. La carga se mide en coulombs (C).
+
+Carga de un electrón = 1.602 x 10-19 C.
+
+Cantidades básicas:
+Nos interesa el movimiento de la carga eléctrica ya que da como resultado la transferencia de energía.
+
+Cantidades básicas:
+Un circuito eléctrico es esencialmente un conducto que facilita la transferencia de carga desde un punto a otro
+
+Cantidades básicas:
+La razón de cambio de la carga con respecto al tiempo constituye una corriente eléctrica.
+
+[Ecuación 1.1]
+
+La unidad básica es el ampere (A). Un ampere equivale a 1 coulomb por segundo (1 C/s).
+
+Cantidades básicas:
+
+Corriente real vs. corriente convencional
+
+Cantidades básicas: 
+
+Corriente alterna vs. corriente directa
+
+Cantidades básicas:
+Voltaje (también llamado tensión, diferencia de potencial o fuerza electromotriz).- Es la diferencia en el nivel de energía de una unidad de carga localizada en uno de los dos puntos de un circuito.
+
+[Imagen: Analogía de la electricidad-tanque]
+
+Cantidades básicas: 
+
+[Imagen: Representaciones de voltaje]
+
+[Ecuación 1.2]
+
+Cantidades básicas:
+
+Absorción de energía.- Una corriente positiva entra en la terminal positiva y sale por la terminal negativa.
+
+Suministro de energía.- Una corriente positiva entra en la terminal negativa y sale por la terminal positiva.
+
+Cantidades básicas:
+
+Ejercicio de baterías
+
+Cantidades básicas:
+
+[Ecuación 1.3]
+
+Ejercicios de entrenamiento:
+
+Tarea: p.17 y 18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
